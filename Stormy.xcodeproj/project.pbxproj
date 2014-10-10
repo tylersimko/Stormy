@@ -13,6 +13,7 @@
 		A2F0CB0819E56BC30001D25E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2F0CB0719E56BC30001D25E /* Images.xcassets */; };
 		A2F0CB0B19E56BC30001D25E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2F0CB0919E56BC30001D25E /* LaunchScreen.xib */; };
 		A2F0CB1719E56BC40001D25E /* StormyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F0CB1619E56BC40001D25E /* StormyTests.swift */; };
+		A2F0CB2119E606150001D25E /* Current.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F0CB2019E606150001D25E /* Current.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		A2F0CB1019E56BC40001D25E /* StormyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StormyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2F0CB1519E56BC40001D25E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A2F0CB1619E56BC40001D25E /* StormyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StormyTests.swift; sourceTree = "<group>"; };
+		A2F0CB2019E606150001D25E /* Current.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Current.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				A2F0CB0019E56BC30001D25E /* AppDelegate.swift */,
 				A2F0CB0219E56BC30001D25E /* ViewController.swift */,
+				A2F0CB2019E606150001D25E /* Current.swift */,
 				A2F0CB0419E56BC30001D25E /* Main.storyboard */,
 				A2F0CB0719E56BC30001D25E /* Images.xcassets */,
 				A2F0CB0919E56BC30001D25E /* LaunchScreen.xib */,
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2F0CB2119E606150001D25E /* Current.swift in Sources */,
 				A2F0CB0319E56BC30001D25E /* ViewController.swift in Sources */,
 				A2F0CB0119E56BC30001D25E /* AppDelegate.swift in Sources */,
 			);
@@ -405,6 +409,7 @@
 				A2F0CB1C19E56BC40001D25E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A2F0CB1D19E56BC40001D25E /* Build configuration list for PBXNativeTarget "StormyTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +418,7 @@
 				A2F0CB1F19E56BC40001D25E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
